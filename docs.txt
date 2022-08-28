@@ -1,0 +1,9 @@
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 120%;
+
+ icon-work_outline
+
+background: #25282B;
