@@ -11,86 +11,88 @@
   </head>
   <body>
     <main>
-      <section class="header-hero__section">
-        <header class="header">
-          <div class="header__logo">
-            <p>Madelyn Torff</p>
+      <div class="top-main-content">
+        <section class="header-hero__section">
+          <header class="header">
+            <div class="header__top">
+              <p>Madelyn Torff</p>
 
-            <svg class="svg svg-gray-dark menu-icon"><use xlink:href="svg/icons.svg#icon-menu"></use></svg>
-          </div>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#" class="nav__link">About</a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">Projects</a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
+              <svg class="svg svg-gray-dark menu-icon"><use xlink:href="svg/icons.svg#icon-menu"></use></svg>
+            </div>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item" id="about-item">
+                  <a href="#" class="nav__link about-link">About</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#project-section" class="nav__link">Projects</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#contact-section" class="nav__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
 
-        <section class="hero__section">
-          <div class="hero__content">
-            <div class="hero__top-content">
-              <p class="hero__title">ui/ux designer</p>
-              <h1 class="hero__heading">Hello, my name is Madelyn Torff</h1>
-              <p class="hero__detail">
-                Short text with details about you, what you do or your professional career. You can add more information on the about page.
+          <section class="hero__section">
+            <div class="hero__content">
+              <div class="hero__top-content">
+                <p class="hero__title">ui/ux designer</p>
+                <h1 class="hero__heading">Hello, my name is Madelyn Torff</h1>
+                <p class="hero__detail">
+                  Short text with details about you, what you do or your professional career. You can add more information on the about page.
+                </p>
+              </div>
+              <div class="hero__links-container">
+                <a href="#" class="hero__link btn btn-primary">Projects</a>
+                <a href="#" class="hero__link btn">LinkedIn</a>
+              </div>
+            </div>
+
+            <div class="hero__image-container">
+              <img src="./Img/hero_pics-1.jpg" alt="" class="hero__image" />
+            </div>
+          </section>
+        </section>
+        <section class="about__section">
+          <div class="about__top-content">
+            <img src="./Img/about_bg.jpg" alt="" class="about__image" />
+
+            <div class="about__detail">
+              <h3 class="sub-heading">About me</h3>
+              <p class="about__text">
+                Nisl arcu, scelerisque neque ut. Tincidunt amet, tempor duis tortor neque auctor dis ipsum. Pretium cras amet odio amet eleifend id
+                sed cras sed. Aliquet risus posuere aliquet imperdiet sit.
               </p>
-            </div>
-            <div class="hero__links-container">
-              <a href="#" class="hero__link btn btn-primary">Projects</a>
-              <a href="#" class="hero__link btn">LinkedIn</a>
+              <a href="#" class="btn btn-primary about__link">Resume</a>
             </div>
           </div>
+          <h4 class="sub-heading text-center project__heading margin-top">Projects</h4>
+          <section class="about-form__section">
+            <form action="" class="form">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" />
+              <label for="email">Email</label>
+              <input type="email" name="name" id="email" />
+              <label for="message">Message</label>
+              <textarea type="text" id="" cols="35" rows="8" name="message"></textarea>
 
-          <div class="hero__image-container">
-            <img src="./Img/hero_pics-1.jpg" alt="" class="hero__image" />
+              <button class="btn btn-primary form__btn">Send</button>
+            </form>
+          </section>
+          <div class="about__icons">
+            <svg class="svg svg-gray-dark"><use xlink:href="svg/icons.svg#icon-instagram"></use></svg>
+            <svg class="svg svg-gray-dark"><use xlink:href="svg/icons.svg#icon-linkedin"></use></svg>
+            <svg class="svg svg-gray-dark"><use xlink:href="svg/icons.svg#icon-gmail"></use></svg>
           </div>
+
+          <p class="text-center">Madelyn Torff 2021</p>
+
+          <img src="./Img/Vector.png" class="footer__bg" alt="" />
         </section>
-      </section>
-      <section class="about__section">
-        <div class="about__top-content">
-          <img src="./Img/about_bg.jpg" alt="" class="about__image" />
+      </div>
 
-          <div class="about__detail">
-            <h3 class="sub-heading">About me</h3>
-            <p class="about__text">
-              Nisl arcu, scelerisque neque ut. Tincidunt amet, tempor duis tortor neque auctor dis ipsum. Pretium cras amet odio amet eleifend id sed
-              cras sed. Aliquet risus posuere aliquet imperdiet sit.
-            </p>
-            <a href="#" class="btn btn-primary about__link">Resume</a>
-          </div>
-        </div>
-        <h4 class="sub-heading text-center project__heading margin-top">Projects</h4>
-        <section class="form__section">
-          <form action="" class="form">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
-            <label for="email">Email</label>
-            <input type="email" name="name" id="email" />
-            <label for="message">Message</label>
-            <textarea type="text" id="" cols="35" rows="8" name="message"></textarea>
-
-            <button class="btn btn-primary form__btn">Send</button>
-          </form>
-        </section>
-        <div class="about__icons">
-          <svg class="svg svg-gray-dark"><use xlink:href="svg/icons.svg#icon-instagram"></use></svg>
-          <svg class="svg svg-gray-dark"><use xlink:href="svg/icons.svg#icon-linkedin"></use></svg>
-          <svg class="svg svg-gray-dark"><use xlink:href="svg/icons.svg#icon-gmail"></use></svg>
-        </div>
-
-        <p class="text-center">Madelyn Torff 2021</p>
-
-        <img src="./Img/Vector-test.png" class="footer__bg" alt="" />
-      </section>
-
-      <section class="project__section">
+      <section class="project__section" id="project-section">
         <h2 class="sub-heading text-center project__heading">Projects</h2>
 
         <div class="project__container">
@@ -136,7 +138,7 @@
         <h3 class="sub-heading text-center project__heading">Projects</h3>
       </div>
 
-      <section class="form__section">
+      <section class="form__section" id="contact-section">
         <form action="" class="form">
           <label for="name">Name</label>
           <input type="text" name="name" id="name" />
@@ -163,5 +165,6 @@
         <img src="./Img/Vector-test.png" class="footer__bg" alt="" />
       </footer>
     </main>
+    <script src="./app.js"></script>
   </body>
 </html>
