@@ -37,9 +37,39 @@ body {
   align-items: center;
   /* background-color: #e5e5e5; */
 }
-.menu-icon {
-  margin: 1.3rem 1.5rem 1.5rem 0;
+
+.hamburger__icon {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 2rem;
 }
+
+.hamburger__icon-1,
+.hamburger__icon-2,
+.hamburger__icon-3 {
+  display: block;
+  width: 35px;
+  height: 4px;
+  border-radius: 10rem;
+  background-color: var(--primary-color);
+  margin: 6px 0;
+  transition: all 0.4s;
+}
+
+.icon--bar .hamburger__icon-1 {
+  transform: translate(0, 11px) rotate(-45deg);
+  background-color: var(--secondary-color);
+}
+
+.icon--bar .hamburger__icon-2 {
+  opacity: 0;
+}
+
+.icon--bar .hamburger__icon-3 {
+  transform: translate(0, -8px) rotate(45deg);
+  background-color: var(--secondary-color);
+}
+
 .header__top p {
   font-size: 1rem;
   margin: 1.3rem 0 1.5rem 1.5rem;
@@ -378,8 +408,7 @@ form input {
 }
 /* Tablet size */
 @media screen and (min-width: 768px) {
-  .menu-icon {
-    margin: 1.3rem 1.5rem 1.5rem 0;
+  .hamburger__icon {
     display: none;
   }
   .header {

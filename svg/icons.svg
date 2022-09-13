@@ -12,5 +12,8 @@
 <symbol id="icon-menu" viewBox="0 0 24 24">
 <path style="fill: var(--color248, #fdc435)" d="M3 6h18v2.016h-18v-2.016zM3 12.984v-1.969h18v1.969h-18zM3 18v-2.016h18v2.016h-18z"></path>
 </symbol>
+<symbol id="icon-clear" viewBox="0 0 24 24">
+<path d="M18.984 6.422l-5.578 5.578 5.578 5.578-1.406 1.406-5.578-5.578-5.578 5.578-1.406-1.406 5.578-5.578-5.578-5.578 1.406-1.406 5.578 5.578 5.578-5.578z"></path>
+</symbol>
 </defs>
 </svg>

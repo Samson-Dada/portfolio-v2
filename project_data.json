@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "project_title": "Project Name",
+    "project_description": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+    "project_image": "./Img/project_pics-1.jpg",
+    "project_image_alt": "Project image "
+  },
+  {
+    "id": 2,
+    "project_title": "Project Name",
+    "project_description": "What was your role, your deliverables, if the project was personal, freelancing.",
+    "project_image": "./Img/project_pics-2.jpg",
+    "project_image_alt": "Project image "
+  },
+  {
+    "id": 3,
+    "project_title": "Project Name",
+    "project_description": "You can also add in this description the type of the project, if it was for web, mobile, electron",
+    "project_image": "./Img/project_pics-3.jpg",
+    "project_image_alt": "Project image "
+  }
+]
